@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html {
+    height: 100%;  
+}
+  
+body {
+    min-height: 100%;  
+    background: #eee;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+}
+  
+.container {
+    max-width: 700px;   
+    background: #fff;
+    margin: 0px auto 0px; 
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;  
+    padding: 40px;
+    margin-top: 50px;
+    
+  }
+  
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .full-name {
+    font-family: 'Didot';
+    font-weight: bold;
+    src: url(./fonts/Didot.ttc);
+    font-size: 42px;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info {
+    font-family: 'Optima';
+    src: url(./fonts/Optima.ttc);
+    margin-bottom: 20px;
+  }
+
+
+  .left ,
+  .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .left {
+    width: 60%;    
+  }
+  
+  .right {
+    tex-align: right;
+    width: 39%;    
+  }
+
+  .address ,
+  .email ,
+  .phone {
+    font-size: 16px;
+    margin: 50px 0px 0px;
+    font-weight: normal;
+  } 
+  
+  email {
+    vertical-align: bottom;
+  }
+
+  .address-val ,
+  .phone-val ,
+  .email-val {
+    font-size: 12px;
+    line-height: 0.5em;
+  }
+
+  .email-val {
+    text-decoration: underline;
+  }
